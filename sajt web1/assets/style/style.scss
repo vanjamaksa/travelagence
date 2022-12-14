@@ -1,0 +1,381 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Raleway;
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+#main{
+    background-image: url(../img/david-marcu-78A265wPiO4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    #navBar{
+        width: 100%;
+        .navbar-brand{
+            img{
+                width: 200px;
+            }
+        }
+        .nav-item{
+            a{
+                color:#ffffff;
+                font-weight: 700;
+                &:hover{
+                    color: #3a3f46;
+                }
+            }
+
+        }
+    }
+    #centerText{
+        h1{
+            font-size: 100px;
+            font-weight: 800;
+            letter-spacing: 5px;
+        }
+        hr.divider {
+            height: 0.2rem;
+            max-width: 150px;
+            margin: 1.5rem auto;
+            background-color: #f4623a;
+            opacity: 1;
+        }
+        .btn-xl {
+            padding: 1.25rem 2.25rem;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 10rem;
+        }
+        .btn-primary{
+            color: #fff;
+            background-color: #f4623a;
+        }
+        p{
+            color: #fff;
+        }
+    }
+
+}
+#services{
+    margin-top: 50px;
+    .features-icons-item{
+        background-color: #ffe7df;
+        border-radius: 2%;
+        h3{
+            color: #0d1f3a;
+        }
+        img{
+            width: 100px;
+        }
+    }
+}
+#aboutUs{
+    margin: 125px 0px;
+    h2{
+        text-align: center;
+        margin: 0.5rem auto;
+        font-size: 50px;
+        font-weight: 400;
+        color: #143059;
+    }
+    p.header{
+        margin: 0px auto;
+        text-align: center;
+        color: #5a616b;
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 70px;
+    }
+    h3{
+        color: #143059;
+    }
+    #aboutUsMain{
+        margin-top: 50px;
+        .pictureAboutUs{
+            img{
+                width: 100%;
+            }
+        }
+        .textAboutUs{
+            padding: 5%;
+            .btn-xl {
+                padding: 1.25rem 2.25rem;
+                font-size: 0.85rem;
+                font-weight: 700;
+                text-transform: uppercase;
+                border: none;
+                border-radius: 10rem;
+            }
+            .btn-primary{
+                color: #fff;
+                background-color: #f4623a;
+            }
+        }
+    }
+    
+}
+/*AUTHOR PAGE*/
+#authorPage{
+    margin: 78px auto;
+    padding: 50px;
+    background-color: #ffe7df9e;
+    #aboutMeImg{
+        text-align: center;
+        h3{
+            font-size: 35px;
+            color: #0d1f3a;
+        }
+        img{
+            width: 300px;
+            border-radius:50%;
+        }
+    }
+    .aboutMe{
+        text-align: center;
+        h2{
+            font-size: 100px;
+            margin-right: 0px;
+            color: #0d1f3a;
+        }
+        h4{
+            color: #0d1f3a;
+        }
+        #skills{
+            ul{
+                padding-right: 0px;
+                li{
+                    list-style: none;
+                    display: inline-block;
+                    margin-right: 15px;
+                    img{
+                        width: 45px;
+                    }
+                }
+            }
+        }
+        #findMe{
+            ul{
+                li{
+                    list-style: none;
+                    display: inline-block;
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}
+//DESTINATONS
+#destinationCaption{
+    text-align: center;
+    h2{
+        text-align: center;
+        margin: 0.5rem auto;
+        font-size: 50px;
+        font-weight: 400;
+        color: #143059;
+    }
+    p{
+        margin: 0px auto;
+        text-align: center;
+        color: #5a616b;
+        font-size: 17px;
+        font-weight: 600;
+        margin-bottom: 70px;
+    }
+}    
+#destinations{
+    text-align: center;
+    margin:0px auto;
+    .button-value {
+        border: 2px solid #6759ff00;
+        padding: 1em 2.2em;
+        border-radius: 3em;
+        //background-color: transparent;
+        color:#f4623a;
+        cursor: pointer;
+        }
+        .active {
+        //background-color: #0d1f3a;
+        color: #0d1f3a;
+        }
+        #products {
+        text-align: center;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 1.5em;
+        padding: 2em 0;
+        }
+        .card {
+        background-color: #ffffff;
+        max-width: 18em;
+        margin-top: 1em;
+        padding: 1em;
+        border-radius: 5px;
+        box-shadow: 1em 2em 2.5em rgba(1, 2, 68, 0.08);
+        }
+        .image-container {
+        text-align: center;
+        }
+        img {
+        max-width: 100%;
+        object-fit: contain;
+        height: 15em;
+        }
+        .container {
+        padding-top: 1em;
+        color: #110f29;
+        }
+        .container h5 {
+        font-weight: 500;
+        }
+        .hide {
+        display: none;
+        }
+    }
+
+
+
+
+// FOOTER
+footer{
+    img{
+        width: 150px;
+    }
+}
+//CONTACT PAGE
+#mainCover{
+    background-image: url(../img/wil-stewart-pHANr-CpbYM-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    #navBar{
+        width: 100%;
+        .navbar-brand{
+            img{
+                width: 200px;
+            }
+        }
+        .nav-item{
+            a{
+                color:#ffffff;
+                font-weight: 600;
+                &:hover{
+                    color: #3a3f46;
+                }
+            }
+
+        }
+    }
+    #centerTextContact{
+        .hide{
+             display: none;
+         }
+        h1{
+            font-size: 50px;
+            font-weight: 800;
+            letter-spacing: 5px;
+        }
+        hr.divider {
+            height: 0.2rem;
+            max-width: 150px;
+            margin: 1.5rem auto;
+            background-color: #f4623a;
+            opacity: 1;
+        }
+        .btn-xl {
+            padding: 1.25rem 2.25rem;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 10rem;
+        }
+        .btn-primary{
+            color: #fff;
+            background-color: #f4623a;
+        }
+        p{
+            color: #fff;
+            font-size: 27px;
+        }
+    }
+    #forma-prijava{
+        background-color: #0d1f3a;
+        padding: 2%;
+        color: #fef8f6;
+        border-radius: 25px;
+        width:60%;
+        margin: 40px auto;
+        
+    }
+}
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 992px){
+    
+    #navBar{
+        .nav-item{
+            a{
+                text-align: center;
+            }
+        }
+    }
+}
+@media screen and (max-width: 720px){
+    .social-icons{
+        img{
+            width: 25px;
+        }
+    }
+    #destinations{
+            img {
+              max-width: 100%;
+              object-fit: contain;
+              height: 10em;
+            }
+            .card {
+              max-width: 10em;
+              margin-top: 1em;
+            }
+            #products {
+              grid-template-columns: auto auto;
+              grid-column-gap: 1em;
+            }
+          }
+}    
+@media screen and (max-width: 512px){
+    #main{
+        #centerText{
+            h1{
+                font-size: 60px;
+            }
+        }
+    }
+    #mainCover{
+        #centerTextContact{
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 460px){
+    
+}
+@media screen and (max-width: 375px){
+#main{
+    #centerText{
+        h1{
+            font-size: 50px;
+        }
+    }
+}
+   
+}
